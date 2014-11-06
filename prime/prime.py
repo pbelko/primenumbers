@@ -11,12 +11,16 @@ def main() -> object:
 
 
 def calculate_prime(a):
+    a = 2
     if a < 2:
         sentence = 'The number { } must be greater than 2.'.format(a)
         print(sentence)
     for i in range(2, a):
         if is_prime(i):
             print(i)
+             # count += 1
+#        else:
+#            count += 1
 
 
 def is_prime(n):
